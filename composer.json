@@ -1,25 +1,9 @@
 {
-  "name": "battlefieldhardline/api",
-  "version": "1.0",
-  "type": "battlefield_api_wrapper",
-  "description": "",
-  "keywords": [
-    "example",
-    "testing"
-  ],
-  "homepage": "http://",
-  "time": "2015-05-20",
+  "name": "battlefield/ha rdlineAPIWrapper",
+  "description": "battlefield api wrapper.",
+  "keywords": ["battlefield", "api"],
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Travis Martin",
-      "email": "travismartin266@gmail.com",
-      "homepage": "http://NA"
-    }
-  ],
-  "require": {
-    "php": " >= 5.4"
-  },
+
   "autoload": {
     "psr-4": {"battlefield\\": "src/"}
   }
