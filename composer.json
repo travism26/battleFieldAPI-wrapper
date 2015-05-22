@@ -1,0 +1,30 @@
+{
+  "name": "example/testing",
+  "version": "1.0.2",
+  "type": "aura-package",
+  "description": "This is a long description of the package.\n\nThe quick brown fox jumps over the lazy dog.\n\nNow is the time for all good men to come to the aid of their country.",
+  "keywords": [
+    "example",
+    "testing"
+  ],
+  "homepage": "http://auraphp.com/Example.Testing",
+  "time": "2013-09-06",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "battlefield api",
+      "homepage": "https://github.com/travism26"
+    },
+    {
+      "name": "",
+      "email": "travismartin266@gmail.com",
+      "homepage": "http://example.com"
+    }
+  ],
+  "require": {
+    "php": " >= 5.4"
+  },
+  "autoload": {
+    "psr-4": {"Acme\\": "src/"}
+  }
+}
