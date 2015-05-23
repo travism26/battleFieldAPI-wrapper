@@ -21,12 +21,13 @@ class apiRequest {
 		));
 
 		// Send the request & save response to $resp
-		$resp        = curl_exec($curl);
-		$responseObj = json_decode($resp);
+		$resp = curl_exec($curl);
+		//$responseObj = json_decode($resp);
 		/*
 		 * use polymorphism to return the datatype we want
 		 * TBC
 		 */
-		return $responseObj;
+
+		return $resp;
 	}
 }
